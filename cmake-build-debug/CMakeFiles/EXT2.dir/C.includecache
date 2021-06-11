@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CLionProjects/EXT2/init.h
+stdio.h
+-
+string.h
+-
+main.h
+D:/CLionProjects/EXT2/main.h
+
+D:/CLionProjects/EXT2/main.c
+stdio.h
+-
+string.h
+-
+main.h
+D:/CLionProjects/EXT2/main.h
+init.h
+D:/CLionProjects/EXT2/init.h
+
+D:/CLionProjects/EXT2/main.h
+
